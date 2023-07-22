@@ -11,7 +11,6 @@
   cursor: pointer;
   padding: 1rem;
   border-radius: 40px;
-
 }
 
 .column-content {
@@ -64,7 +63,28 @@
   border: 5px solid black;
 }
 
-
-.link{
+.link {
   padding: 3.5rem;
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1024px) {
+  .welcome {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex-basis: 30%;
+  }
+}
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+  .welcome {
+    flex-direction: column;
+  }
+
+  .column {
+    margin-bottom: 2rem;
+  }
 }
