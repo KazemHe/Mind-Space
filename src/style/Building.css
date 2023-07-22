@@ -1,0 +1,59 @@
+.Mindfulness {
+    /* width : 100%; */
+    background-image: url('../images/Mindfulness_Building.jpg');
+    background-size: contain;
+    background-repeat: round;
+    /* background-position: center center; */
+    min-height: 75.7vh;
+
+  }
+
+  
+.Rebirthing {
+    /* width : 100%; */
+    background-image: url('../images/Rebirthing_Building.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 75.7vh;
+  }
+.Sensations {
+    /* width : 100%; */
+    background-image: url('../images/Sensations_Building.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 75.7vh;
+  }
+  
+  .arrowButton {
+    position: absolute;
+    left: 10px;
+    top: 47%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #f2f2f2;
+    font-size: 40px;  
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+
+  }
+  
+  .arrowButton:hover {
+    transform: translateY(-50%) translateX(-5px);
+  }
+  
+  .arrowButton:hover .buttonText {
+    display: inline;
+    transform: translateX(5px);
+  }
+  
+  .buttonText {
+    margin-left: 5px;
+    display: none;
+    transition: transform 0.2s ease-in-out;
+  }
+

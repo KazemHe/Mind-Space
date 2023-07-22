@@ -1,0 +1,218 @@
+/* Model.css */
+
+.modelContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.videoContainer {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  z-index: 900;
+}
+
+.videoContainer video {
+  width: 100%;
+
+}
+
+.modelContainer h2 {
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.modelContainer p {
+  font-size: 16px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.Mindful {
+  width: 100%;
+  background-image: url('../images/models/Mindfulness/Mindfulness_Programa_Main.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 75.7vh;
+
+}
+
+
+.Rebirth {
+  width: 100%;
+  background-image: url('../images/models/Rebirthing/Rebirthing_programa_main.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 75.7vh;
+}
+
+.Sens {
+  width: 100%;
+  background-image: url('../images/models/Senses/Senses_main-programa.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 75.7vh;
+}
+
+
+.Amphi {
+  position: absolute;
+  top: 31%;
+  width: 163px;
+  height: 109px;
+  border-radius: 191px;
+  left: 41%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.Rebirthing-Room {
+  position: absolute;
+  width: 207px;
+  height: 158px;
+  border-radius: 64%;
+  top: 28%;
+  right: 5%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.Mid-Room {
+  position: absolute;
+  width: 158px;
+  height: 154px;
+  top: 23%;
+  border-radius: 73px;
+  left: 62%;
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+.Reb-Group {
+  position: absolute;
+  width: 229px;
+  height: 218px;
+  border-radius: 83px;
+  top: 31%;
+  left: 13%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.arrow-Button {
+  position: absolute;
+  left: 10px;
+  top: 75%;
+  /* transform: translateY(-50%); */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #f2f2f2;
+  font-size: 40px;
+  /* transition: transform 0.2s ease-in-out; */
+  text-decoration: none;
+
+}
+
+.virtual-tour {
+  margin-left: 5px;
+}
+
+.POOl {
+  position: absolute;
+  width: 320px;
+  height: 200px;
+  top: 30%;
+  left: 52%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.MindfulnessRoom {
+  position: absolute;
+  width: 300px;
+  height: 153px;
+  top: 15%;
+  right: 10%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+
+.therapy {
+  position: absolute;
+  width: 261px;
+  height: 132px;
+  top: 24%;
+  left: 28%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.occupationaltherapy {
+  position: absolute;
+  width: 208px;
+  height: 77px;
+  top: 22%;
+  left: 5%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.SenseGarden {
+  position: absolute;
+  width: 400px;
+  height: 196px;
+  top: 46%;
+  right: 5%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.SenseSound {
+  position: absolute;
+  width: 200px;
+  height: 140px;
+  top: 24%;
+  left: 7%;
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+.SensePool {
+  position: absolute;
+  width: 400px;
+  height: 306px;
+  top: 35%;
+  left: 24%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.SenseTherapy {
+  position: absolute;
+  width: 400px;
+  height: 143px;
+  top: 32%;
+  right: 6%;
+  opacity: 0;
+  cursor: pointer;
+}
