@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Form, useParams } from 'react-router-dom';
 import '../style/Model.css';
-import Ampi from '../images/models/Rebirthing/Ampi.jpg'
-import MidRoom from '../images/models/Rebirthing/Mid-Room.jpg'
-import RebGroup from '../images/models/Rebirthing/Rib-Group.jpg'
-import RebirthingRoom from '../images/models/Rebirthing/Rebirthing-Room.jpg'
-import Pool from '../images/models/Mindfulness/Pool.jpg'
-import MindfulnessRoom from '../images/models/Mindfulness/MindfulnessRoom.jpg'
-import therapy from '../images/models/Mindfulness/therapy.jpg'
-import occupationaltherapy from '../images/models/Mindfulness/occupational-therapy.jpg'
+import Ampi from '../images/models/Rebirthing/Ampi.png'
+import MidRoom from '../images/models/Rebirthing/Mid-Room.png'
+import RebGroup from '../images/models/Rebirthing/Rib-Group.png'
+import RebirthingRoom from '../images/models/Rebirthing/Rebirthing-Room.png'
+import Pool from '../images/models/Mindfulness/Pool.png'
+import MindfulnessRoom from '../images/models/Mindfulness/MindfulnessRoom.png'
+import therapy from '../images/models/Mindfulness/therapy.png'
+import occupationaltherapy from '../images/models/Mindfulness/occupational-therapy.png'
 import SensePool from '../images/models/Senses/Sense-pool-therapy.jpg'
 import SenseTherapy from '../images/models/Senses/Senses_-therapy.jpg'
 import SenseGarden from '../images/models/Senses/Senses-garden.jpg'
