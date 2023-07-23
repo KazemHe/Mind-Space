@@ -16,12 +16,22 @@ function Header() {
   return showHeader ? <AppHeader /> : null;
 }
 
+
+
+function FooterRoute() {
+  const location = useLocation();
+  const showFooter = location.pathname === '/' || location.pathname === '/welcome';
+  return showFooter ? <Footer /> : null;
+
+}
+
+
 function App() {
   return (
     <Router>
       <div className="App">
         <header>
-          <Header /> 
+          <Header />
         </header>
 
         <Routes>
@@ -32,7 +42,7 @@ function App() {
           <Route path="/model/:source" element={<Model />} />
         </Routes>
 
-        <Footer />
+     <FooterRoute />
       </div>
     </Router>
   );
