@@ -34,7 +34,7 @@ export default function Model() {
     case 'Sensations':
       title = 'פרוגרמת האי לחושים';
       className = 'Sens';
-      videoToSow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690036702/mind-space/Senses_03_1_xvjw81.mp4'
+      videoToSow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690140216/mind-space/Senses_03_small_ho8tal.mp4'
       button1 = 'SensePool';
       bgi1 = SensePool
       button2 = 'SenseTherapy';
@@ -60,7 +60,7 @@ export default function Model() {
     case 'Mindfulness':
       title = 'פרוגרמת האי לקְשִׁיבוּת';
       className = 'Mindful';
-      videoToSow = ''
+      videoToSow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690140200/mind-space/Mindfulness_01_small_size_upmsgf.mp4'
       button1 = 'POOl';
       bgi1 = Pool
       button2 = 'MindfulnessRoom';
