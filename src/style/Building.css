@@ -1,10 +1,10 @@
 .Mindfulness {
     /* width : 100%; */
     background-image: url('../images/Mindfulness_Building.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: round;
     /* background-position: center center; */
-    min-height: 75.7vh;
+    min-height: 83.7vh;
 
   }
 
@@ -12,18 +12,18 @@
 .Rebirthing {
     /* width : 100%; */
     background-image: url('../images/Rebirthing_Building.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    min-height: 75.7vh;
+    min-height: 83.7vh;
   }
 .Sensations {
     /* width : 100%; */
     background-image: url('../images/Sensations_Building.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    min-height: 75.7vh;
+    min-height: 83.7vh;
   }
   
   .arrowButton {

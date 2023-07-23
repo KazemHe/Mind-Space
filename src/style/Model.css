@@ -40,10 +40,10 @@
 .Mindful {
   width: 100%;
   background-image: url('../images/models/Mindfulness/Mindfulness_Programa_Main.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 75.7vh;
+  min-height: 83.7vh;
 
 }
 
@@ -51,19 +51,19 @@
 .Rebirth {
   width: 100%;
   background-image: url('../images/models/Rebirthing/Rebirthing_programa_main.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 75.7vh;
+  min-height: 83.7vh;
 }
 
 .Sens {
   width: 100%;
   background-image: url('../images/models/Senses/Senses_main-programa.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 75.7vh;
+  min-height: 83.7vh;
 }
 
 
@@ -116,7 +116,7 @@
 .arrow-Button {
   position: absolute;
   left: 10px;
-  top: 75%;
+  top: 82%;
   /* transform: translateY(-50%); */
   background-color: transparent;
   border: none;
