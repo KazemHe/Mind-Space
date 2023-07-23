@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mind-Space/static/css/main.32efbb74.css",
-    "main.js": "/Mind-Space/static/js/main.d90751f2.js",
+    "main.js": "/Mind-Space/static/js/main.c606d8b8.js",
     "static/js/787.7d208e01.chunk.js": "/Mind-Space/static/js/787.7d208e01.chunk.js",
     "static/media/Rebirthing_Building.png": "/Mind-Space/static/media/Rebirthing_Building.7a94b119b657984b397c.png",
     "static/media/Senses_main-programa.jpg": "/Mind-Space/static/media/Senses_main-programa.6860668b299f289bd29e.jpg",
@@ -12,29 +12,29 @@
     "static/media/Mindfulness_Building.jpg": "/Mind-Space/static/media/Mindfulness_Building.0b419f242daf82e7a976.jpg",
     "static/media/Senses_-therapy.jpg": "/Mind-Space/static/media/Senses_-therapy.f0bf77236ac226179029.jpg",
     "static/media/Senses-sound-therapy.jpg": "/Mind-Space/static/media/Senses-sound-therapy.0438da609446642473be.jpg",
-    "static/media/Rib-Group.jpg": "/Mind-Space/static/media/Rib-Group.11c90dcc325af481fa3f.jpg",
-    "static/media/Rebirthing-Room.jpg": "/Mind-Space/static/media/Rebirthing-Room.13b479b2a9b4412a4e81.jpg",
-    "static/media/Ampi.jpg": "/Mind-Space/static/media/Ampi.4706ec3437610fb6844c.jpg",
-    "static/media/Mid-Room.jpg": "/Mind-Space/static/media/Mid-Room.08dadf0b142b06e29f93.jpg",
+    "static/media/Mid-Room.png": "/Mind-Space/static/media/Mid-Room.8b853306958adc30fc00.png",
+    "static/media/Pool.png": "/Mind-Space/static/media/Pool.3eaaa817b7a7871ff12e.png",
+    "static/media/Rebirthing-Room.png": "/Mind-Space/static/media/Rebirthing-Room.494d36731a54872024db.png",
+    "static/media/Ampi.png": "/Mind-Space/static/media/Ampi.5ab34aad5f1775c0b584.png",
+    "static/media/therapy.png": "/Mind-Space/static/media/therapy.bf1da461aee49d3edf7f.png",
+    "static/media/MindfulnessRoom.png": "/Mind-Space/static/media/MindfulnessRoom.0cbed308a9c2fa6d9ddf.png",
+    "static/media/occupational-therapy.png": "/Mind-Space/static/media/occupational-therapy.1b656d337a29c154208f.png",
+    "static/media/Rib-Group.png": "/Mind-Space/static/media/Rib-Group.f15f411ee6678bf51b79.png",
     "static/media/Rebirthing.jpg": "/Mind-Space/static/media/Rebirthing.521c0c72c6b6a2a725b9.jpg",
     "static/media/Sensations.jpg": "/Mind-Space/static/media/Sensations.b64b08c02b5669bfce88.jpg",
     "static/media/Mindfulness_Programa_Main.jpg": "/Mind-Space/static/media/Mindfulness_Programa_Main.76f071ba9610f2890b21.jpg",
     "static/media/hompage.png": "/Mind-Space/static/media/hompage.78e718c7503733c5c137.png",
-    "static/media/Pool.jpg": "/Mind-Space/static/media/Pool.13da5b0d19701c5ab169.jpg",
-    "static/media/therapy.jpg": "/Mind-Space/static/media/therapy.b9828c2746e568c9efec.jpg",
-    "static/media/occupational-therapy.jpg": "/Mind-Space/static/media/occupational-therapy.e957f5852f8285bc6218.jpg",
-    "static/media/MindfulnessRoom.jpg": "/Mind-Space/static/media/MindfulnessRoom.ffc56b42af9eadeb6e15.jpg",
     "static/media/logo.png": "/Mind-Space/static/media/logo.4ad18ad79b94539bb448.png",
     "static/media/Mindfulness.jpg": "/Mind-Space/static/media/Mindfulness.2eca3d3e5bf735027631.jpg",
     "static/media/TAULOGO.png": "/Mind-Space/static/media/TAULOGO.0c17b0e2b64b6aa6077c.png",
     "static/media/Mindspace.png": "/Mind-Space/static/media/Mindspace.c1e07f124ef1c078f42c.png",
     "index.html": "/Mind-Space/index.html",
     "main.32efbb74.css.map": "/Mind-Space/static/css/main.32efbb74.css.map",
-    "main.d90751f2.js.map": "/Mind-Space/static/js/main.d90751f2.js.map",
+    "main.c606d8b8.js.map": "/Mind-Space/static/js/main.c606d8b8.js.map",
     "787.7d208e01.chunk.js.map": "/Mind-Space/static/js/787.7d208e01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32efbb74.css",
-    "static/js/main.d90751f2.js"
+    "static/js/main.c606d8b8.js"
   ]
 }
