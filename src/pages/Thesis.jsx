@@ -16,8 +16,8 @@ const images = [
 
 export default function Thesis() {
     return (
-        <div>
-            <div>
+        <div className='thesis'>
+            {/* <div>
                 <p>עבודת תיזה במסגרת הקורס לכתיבת תיזה פרויקט גמר</p>
             </div>
             <div>
@@ -32,7 +32,7 @@ export default function Thesis() {
             <div className='Thesis-buttons'>
                 <button className='Thesis-button'>הבא</button>
                 <button className='Thesis-button'>חזרה </button>
-            </div>
+            </div> */}
         </div>
     );
 }

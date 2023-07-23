@@ -20,7 +20,7 @@ function Header() {
 
 function FooterRoute() {
   const location = useLocation();
-  const showFooter = location.pathname === '/' || location.pathname === '/welcome';
+  const showFooter = location.pathname === '/' || location.pathname === '/welcome' ||location.pathname === '/thesis'
   return showFooter ? <Footer /> : null;
 
 }

@@ -16,3 +16,11 @@ justify-content: space-around;
     font-weight: 380;
     border: 3px solid black;
 }
+
+
+.thesis{
+    background-image: url('https://res.cloudinary.com/de3pvycqi/image/upload/v1690119115/mind-space/thesis/EBook_03_1_avoje6.jpg');
+    min-height: 88vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

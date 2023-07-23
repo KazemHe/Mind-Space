@@ -22,7 +22,7 @@ const Homepage = () => {
         </div>
         <img src={TAULOGO} alt="Logo" className="TAULOGO" />
         <Link to="/thesis">
-          <button className="thesis">לתזה</button>
+          <button className="thesis-button">לתזה</button>
         </Link>
       </div>
     </>
