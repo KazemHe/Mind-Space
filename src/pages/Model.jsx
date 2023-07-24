@@ -28,13 +28,13 @@ export default function Model() {
   let bgi2 = '';
   let bgi3 = '';
   let bgi4 = '';
-  let videoToSow = ''
+  let videoToShow = ''
 
   switch (source) {
     case 'Sensations':
       title = 'פרוגרמת האי לחושים';
       className = 'Sens';
-      videoToSow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690140216/mind-space/Senses_03_small_ho8tal.mp4'
+      videoToShow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690140216/mind-space/Senses_03_small_ho8tal.mp4'
       button1 = 'SensePool';
       bgi1 = SensePool
       button2 = 'SenseTherapy';
@@ -47,7 +47,7 @@ export default function Model() {
     case 'Rebirthing':
       title = 'פרוגרמת האי לנשימה';
       className = 'Rebirth';
-      videoToSow = ''
+      videoToShow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690198715/mind-space/Rebirthing_02_small_kq2sov.mp4'
       button1 = 'Amphi';
       bgi1 = Ampi
       button2 = 'Rebirthing-Room';
@@ -60,7 +60,7 @@ export default function Model() {
     case 'Mindfulness':
       title = 'פרוגרמת האי לקְשִׁיבוּת';
       className = 'Mindful';
-      videoToSow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690140200/mind-space/Mindfulness_01_small_size_upmsgf.mp4'
+      videoToShow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690140200/mind-space/Mindfulness_01_small_size_upmsgf.mp4'
       button1 = 'POOl';
       bgi1 = Pool
       button2 = 'MindfulnessRoom';
@@ -108,7 +108,7 @@ export default function Model() {
       {playVideo && (
         <div className="videoContainer">
           <video controls autoPlay>
-            <source src={videoToSow} type="video/mp4" />
+            <source src={videoToShow} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
