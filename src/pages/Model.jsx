@@ -9,10 +9,10 @@ import Pool from '../images/models/Mindfulness/Pool.png'
 import MindfulnessRoom from '../images/models/Mindfulness/MindfulnessRoom.png'
 import therapy from '../images/models/Mindfulness/therapy.png'
 import occupationaltherapy from '../images/models/Mindfulness/occupational-therapy.png'
-import SensePool from '../images/models/Senses/Sense-pool-therapy.jpg'
-import SenseTherapy from '../images/models/Senses/Senses_-therapy.jpg'
-import SenseGarden from '../images/models/Senses/Senses-garden.jpg'
-import SenseSound from '../images/models/Senses/Senses-sound-therapy.jpg'
+import SensePool from '../images/models/Senses/Sense-pool-therapy.png'
+import SenseTherapy from '../images/models/Senses/Senses_-therapy.png'
+import SenseGarden from '../images/models/Senses/Senses-garden.png'
+import SenseSound from '../images/models/Senses/Senses-sound-therapy.png'
 import { Link } from 'react-router-dom';
 
 export default function Model() {
