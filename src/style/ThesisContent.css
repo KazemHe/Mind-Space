@@ -1,27 +1,49 @@
+/* ThesisContent.css */
+
 .table-of-contents {
     display: flex;
     justify-content: space-evenly;
-}
-
-
-.thesis-content {
+  }
+  
+  .thesis-content {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-
-}
-
-p{
+  }
+  
+  p {
     margin: 4px;
-/* font-family :'revert'; */
-/* font-style: normal; */
-/* font-weight: 700; */
-font-size: 1em;
-
-}
-
-h5{
+    font-size: 1em;
+  }
+  
+  h5 {
     margin: 8px;
-}
+  }
+  
+  /* Styling for navigation buttons */
+  .navigation-buttons {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    margin: 20px;
+    position: sticky;
+    top: 90%;
+  }
+  
+  .navigation-buttons button {
+    padding: 8px 16px;
+    margin: 0 4px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
 
-
+  }
+  
+  .navigation-buttons button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  

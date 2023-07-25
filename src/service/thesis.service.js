@@ -1,16 +1,13 @@
-
 export function getThesisPage(pageNumber) {
     const page = thisisPages.find((pageObj) => pageObj.pageNumber === pageNumber);
     return page ? page.url : null;
 }
 
-
-
-
 const thisisPages = [
-    { pageNumber: 1, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690199208/mind-space/thesis/EBook_01_small_1_apxeg5.jpg" },
-    { pageNumber: 2, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218376/mind-space/thesis/EBook_02_small_2_wf2i5w.jpg" },
-    { pageNumber: 3, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218376/mind-space/thesis/EBook_03_small_iro8sq.jpg" },
+    { pageNumber: 0, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690199208/mind-space/thesis/EBook_01_small_1_apxeg5.jpg" },
+    { pageNumber: 1, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218376/mind-space/thesis/EBook_02_small_2_wf2i5w.jpg" },
+    { pageNumber: 2, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218376/mind-space/thesis/EBook_03_small_iro8sq.jpg" },
+    { pageNumber: 3, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690294203/mind-space/thesis/EBook_04_small_fix_z1ypk5.jpg" },
     { pageNumber: 4, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218465/mind-space/thesis/EBook_04_small_htd8ta.jpg" },
     { pageNumber: 5, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218465/mind-space/thesis/EBook_05_small_pysk1c.jpg" },
     { pageNumber: 6, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218466/mind-space/thesis/EBook_06_small_dsykcz.jpg" },
@@ -52,4 +49,6 @@ const thisisPages = [
     { pageNumber: 42, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690223235/mind-space/thesis/EBook_42_small_xv6zc8.jpg" },
     { pageNumber: 43, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690223236/mind-space/thesis/EBook_43_small_brojea.jpg" },
     { pageNumber: 44, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690223237/mind-space/thesis/EBook_44_small_kcv64f.jpg" },
+    { pageNumber: 45, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690292397/mind-space/thesis/EBook_45_small_t2xz5p.jpg" },
+    { pageNumber: 46, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690295057/mind-space/thesis/EBook_47_small_d5szbs.jpg" },
 ];

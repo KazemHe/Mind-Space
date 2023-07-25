@@ -19,7 +19,7 @@ export default function ThesisPage() {
   };
 
   const handlePreviousPage = () => {
-    setCurrentPageNumber((prevPageNumber) => Math.max(1, prevPageNumber - 1));
+    setCurrentPageNumber((prevPageNumber) => Math.max(0, prevPageNumber - 1));
   };
 
   const handleNextPage = () => {
@@ -36,8 +36,8 @@ export default function ThesisPage() {
     <div className='ThesisPage' style={divStyle}>
         <div className='thesis-nav'>
 
-      {currentPageNumber < 43 && <i class="fa-solid fa-chevron-left" onClick={handleNextPage}></i>}
-      <span> {currentPageNumber}</span>
+      {currentPageNumber < 46 && <i class="fa-solid fa-chevron-left" onClick={handleNextPage}></i>}
+     {currentPageNumber > 0 && <span> {currentPageNumber}</span>} 
       <i class="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i>
         </div>
     </div>
