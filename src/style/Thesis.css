@@ -3,9 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 90vh; /* Adjust as needed for your layout */
+    height: 88vh; /* Adjust as needed for your layout */
     background-image: url('https://res.cloudinary.com/de3pvycqi/image/upload/v1690296992/mind-space/Mindspace_thesis_home_page_background_wwsbop.png');
-    background-size : cover
+    background-size : contain;
   }
   
   .Thesis-content {
@@ -35,4 +35,6 @@
     text-decoration: none;
 
   }
+  
+
   
