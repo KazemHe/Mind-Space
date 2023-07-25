@@ -1,10 +1,27 @@
-.Thesis-buttons{
-display: flex;
-justify-content: space-around;
-}
-
-.Thesis-button {
-    
+.Thesis-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 90vh; /* Adjust as needed for your layout */
+    background-image: url('https://res.cloudinary.com/de3pvycqi/image/upload/v1690296992/mind-space/Mindspace_thesis_home_page_background_wwsbop.png');
+    background-size : cover
+  }
+  
+  .Thesis-content {
+    margin: 20px 0;
+  }
+  
+  .Thesis-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+  }
+  
+  .Thesis-button {
     width: 6em;
     padding: 10px 20px;
     font-size: 1.2rem;
@@ -15,15 +32,7 @@ justify-content: space-around;
     cursor: pointer;
     font-weight: 380;
     border: 3px solid black;
-}
+    text-decoration: none;
 
-
-/* .thesis{
-    background-image: url('https://res.cloudinary.com/de3pvycqi/image/upload/v1690199208/mind-space/thesis/EBook_01_small_1_apxeg5.jpg');
-    min-height: 88vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-}
- */
-
+  }
+  
