@@ -1,0 +1,27 @@
+.table-of-contents {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.thesis-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+p{
+    margin: 4px;
+/* font-family :'revert'; */
+/* font-style: normal; */
+/* font-weight: 700; */
+font-size: 1em;
+
+}
+
+h5{
+    margin: 8px;
+}
+
+

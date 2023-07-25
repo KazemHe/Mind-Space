@@ -1,12 +1,13 @@
 .thesis-nav{
-    min-height: 81vh;
+    min-height: 75vh;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 0 2em 0em 2em;;
+    padding: 0 2em 0em 2em;
+    font-size :xx-large;
 }
 
 .fa-solid{
     cursor: pointer;
-    font-size :xx-large
+   
 }

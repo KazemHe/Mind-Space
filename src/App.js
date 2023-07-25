@@ -9,6 +9,7 @@ import Building from './pages/Building';
 import Thesis from './pages/Thesis';
 import Model from './pages/Model';
 import ThesisPage from './pages/ThesisPage';
+import ThesisContent from './pages/ThesisContent';
 
 function Header() {
   const location = useLocation();
@@ -41,6 +42,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/thesis" element={<Thesis />} />
           <Route path='/thesis/page/:pageNumber' element={<ThesisPage />} />
+          <Route path="/thesis/content" element={<ThesisContent />} />
 
           <Route path="/model/:source" element={<Model />} />
         </Routes>

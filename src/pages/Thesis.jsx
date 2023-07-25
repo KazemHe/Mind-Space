@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../style/Thesis.css';
+import ThesisContent from './ThesisContent';
 
 export default function Thesis() {
   return (
@@ -16,13 +17,14 @@ export default function Thesis() {
         תשפ"ג 2022-2023
       </div>
       <div className='Thesis-buttons'>
-        <Link to='/thesis/page/1' className='Thesis-button'>
+        <Link to='/thesis/content' className='Thesis-button'>
           Next
         </Link>
         <button className='Thesis-button' onClick={() => window.history.back()}>
           Back
         </button>
       </div>
+
     </div>
   );
 }
