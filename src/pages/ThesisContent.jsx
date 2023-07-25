@@ -7,7 +7,7 @@ export default function ThesisContent() {
     <div className='table-of-contents' dir='rtl'>
       <div className='thesis-content'>
         <Link to='/thesis/page/1'><h5>אבסטרקט...........................1</h5></Link>
-        <Link to='/thesis/page/2'><h5>פרק 1 : מבוא ורקע</h5></Link>
+        <Link to='/thesis/page/2'><h5>פרק 1 : מבוא ורקע............2</h5></Link>
         <Link to='/thesis/page/3'><p>1.1 הבנת משבר בריאות הנפש והפוטנציאל של מציאות מדומה</p></Link>
         <Link to='/thesis/page/4'><p>1.2 מתודולוגיה: יצירת מסע לשינוי פרדיגמה</p></Link>
         <Link to='/thesis/page/5'><p>1.3 תחום ומגבלות</p></Link>
