@@ -3,7 +3,6 @@ import { useNavigate, useLocation, Link } from 'react-router-dom';
 import logo from '../images/logo.png';
 import Mindspace from '../images/Mindspace.png';
 import '../style/AppHeader.css';
-
 export default function AppHeader() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -19,7 +18,8 @@ export default function AppHeader() {
   const isMindfulnessModel = location.pathname === '/model/Mindfulness';
   const isRebirthingModel = location.pathname === '/model/Rebirthing';
   const isSensationsModel = location.pathname === '/model/Sensations';
-const isStesis1 = location.pathname ==='/thesis/page/1'
+const isStesisContent = location.pathname ==='/thesis/content'
+const isStesis1 = location.pathname ==='/thesis/page/?1'
 
 
   let componentText = '';
@@ -36,6 +36,7 @@ const isStesis1 = location.pathname ==='/thesis/page/1'
   } else if (isSensationsModel) {
     componentText = 'פרוגרמת האי לחושים';
   }
+else if(isStesisContent) componentText ='תוכן העניינים'
 else if(isStesis1) componentText ='אבסטרקט' 
 
   return (
@@ -47,6 +48,7 @@ else if(isStesis1) componentText ='אבסטרקט'
         </div>
       </Link>
       <div className="headerRight">
+        
         {componentText && <span className="componentText">{componentText}</span>}
         {!isWelcomeComponent && (
           <button className="button-footer" onClick={handleGoBack}>

@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { getThesisPage } from '../service/thesis.service';
 import '../style/ThesisPage.css'
 
-export default function ThesisPage() {
+export default function ThesisPage({componentText }) {
   const { pageNumber } = useParams();
   const [currentPageNumber, setCurrentPageNumber] = useState(parseInt(pageNumber));
   const url = getThesisPage(currentPageNumber);
@@ -36,7 +36,7 @@ export default function ThesisPage() {
     <div className='ThesisPage' style={divStyle}>
         <div className='thesis-nav'>
 
-      {currentPageNumber < 46 && <i class="fa-solid fa-chevron-left" onClick={handleNextPage}></i>}
+      {currentPageNumber < 68 && <i class="fa-solid fa-chevron-left" onClick={handleNextPage}></i>}
      {currentPageNumber > 0 && <span> {currentPageNumber}</span>} 
       <i class="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i>
         </div>
