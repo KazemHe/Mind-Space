@@ -9,13 +9,13 @@ export default function ThesisPage() {
   const url = getThesisPage(currentPageNumber);
 
   const divStyle = {
-    marginTop : '20px',
+    marginTop : '-8%',
     backgroundImage: `url(${url})`,
-    backgroundSize: 'cover',
+    backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'bottom center',
     width: '100%',
-    minHeight: '83vh',
+    minHeight: '90vh',
   };
 
   const handlePreviousPage = () => {
