@@ -5,7 +5,7 @@ export function getThesisPage(pageNumber) {
 
 const thisisPages = [
     { pageNumber: 0, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690199208/mind-space/thesis/EBook_01_small_1_apxeg5.jpg" },
-    { pageNumber: 1, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218376/mind-space/thesis/EBook_02_small_2_wf2i5w.jpg" },
+    { pageNumber: 1, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690400722/mind-space/thesis/EBook_02_small_fix_kcogxn.jpg" },
     { pageNumber: 2, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218376/mind-space/thesis/EBook_03_small_iro8sq.jpg" },
     { pageNumber: 3, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690294203/mind-space/thesis/EBook_04_small_fix_z1ypk5.jpg" },
     { pageNumber: 4, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690218465/mind-space/thesis/EBook_04_small_htd8ta.jpg" },
@@ -61,7 +61,7 @@ const thisisPages = [
     { pageNumber: 54, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690393755/mind-space/thesis/EBook_55_small_qwaffd.jpg" },
     { pageNumber: 55, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690393750/mind-space/thesis/EBook_56_small_anxdq3.jpg" },
     { pageNumber: 56, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690398382/mind-space/thesis/EBook_57_small_fa5pfh.jpg" },
-    { pageNumber: 57, url: "" },
+    { pageNumber: 57, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690400722/mind-space/thesis/EBook_58_small_1_a0d4by.jpg" },
     { pageNumber: 58, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690393750/mind-space/thesis/EBook_59_small_awxdg3.jpg" },
     { pageNumber: 59, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690393751/mind-space/thesis/EBook_60_small_xy8cpb.jpg" },
     { pageNumber: 60, url: "https://res.cloudinary.com/de3pvycqi/image/upload/v1690393748/mind-space/thesis/EBook_61_small_xi6fwo.jpg" },

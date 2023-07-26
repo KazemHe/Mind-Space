@@ -22,9 +22,9 @@ function Header() {
 
 function FooterRoute() {
   const location = useLocation();
-  const showFooter = location.pathname === '/' || location.pathname === '/welcome' 
-  return showFooter ? <Footer /> : null;
+  const showFooter = !(location.pathname.includes('/Building') || location.pathname.includes('/model')); // Fixed condition
 
+  return showFooter ? <Footer /> : null;
 }
 
 
