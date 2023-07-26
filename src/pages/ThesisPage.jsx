@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { getThesisPage } from '../service/thesis.service';
 import '../style/ThesisPage.css'
 
-export default function ThesisPage({componentText }) {
+export default function ThesisPage() {
   const { pageNumber } = useParams();
   const [currentPageNumber, setCurrentPageNumber] = useState(parseInt(pageNumber));
   const url = getThesisPage(currentPageNumber);

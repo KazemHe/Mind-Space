@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../style/ThesisContent.css';
 
-export default function ThesisContent({componentText }) {
+export default function ThesisContent() {
   const MAX_TEXT_LENGTH = 70; // Adjust this value as needed
 
   const addDotsToText = (text) => {
