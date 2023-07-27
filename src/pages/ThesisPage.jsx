@@ -13,7 +13,7 @@ export default function ThesisPage() {
     backgroundImage: `url(${url})`,
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'bottom center',
+    backgroundPosition: 'center',
     // width: '90%',
     minHeight: '90vh  ',
   };
