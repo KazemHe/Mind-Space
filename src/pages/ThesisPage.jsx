@@ -14,9 +14,8 @@ export default function ThesisPage() {
     backgroundSize: '78%',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'bottom center',
-    // backgroundPosition: 'bottom',
     width: '100%',
-    minHeight: '60vh  ',
+    minHeight: '80vh',
   };
 
   const handlePreviousPage = () => {
