@@ -11,11 +11,11 @@ export default function ThesisPage() {
   const divStyle = {
     marginTop : '1%',
     backgroundImage: `url(${url})`,
-    backgroundSize: '75%',
+    backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'bottom center',
-    width: 'auto',
-    minHeight: '100vh  ',
+    width: '90%',
+    minHeight: '90vh  ',
   };
 
   const handlePreviousPage = () => {
