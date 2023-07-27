@@ -9,5 +9,10 @@
 
 .fa-solid{
     cursor: pointer;
+    color: black;
    
+}
+
+.tesis-pages-link{
+    text-decoration: none;
 }
