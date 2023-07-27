@@ -9,9 +9,9 @@ export default function ThesisPage() {
   const url = getThesisPage(currentPageNumber);
 
   const divStyle = {
-    marginTop : '2%',
+    marginTop : '1%',
     backgroundImage: `url(${url})`,
-    backgroundSize: '72%',
+    backgroundSize: '75%',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'bottom center',
     // backgroundPosition: 'bottom',
