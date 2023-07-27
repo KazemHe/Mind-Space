@@ -9,9 +9,9 @@ export default function ThesisPage() {
   const url = getThesisPage(currentPageNumber);
 
   const divStyle = {
-    marginTop : '-2%',
+    marginTop : '2%',
     backgroundImage: `url(${url})`,
-    backgroundSize: '82%',
+    backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'bottom center',
     width: '100%',
@@ -36,7 +36,7 @@ export default function ThesisPage() {
     <div className='ThesisPage' style={divStyle}>
         <div className='thesis-nav'>
 
-      {currentPageNumber < 68 && <Link to={`/thesis/page/${currentPageNumber + 1}`}><i className="fa-solid fa-chevron-left" onClick={handleNextPage}></i></Link>}
+      {currentPageNumber < 67 && <Link to={`/thesis/page/${currentPageNumber + 1}`}><i className="fa-solid fa-chevron-left" onClick={handleNextPage}></i></Link>}
      {currentPageNumber > 0 && <span> {currentPageNumber}</span>} 
      <Link to={`/thesis/page/${currentPageNumber - 1}`}><i className="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i></Link> 
         </div>
