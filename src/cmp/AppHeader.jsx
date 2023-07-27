@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 import logo from '../images/logo.png';
 import Mindspace from '../images/Mindspace.png';
+import TAULOGO from '../images/TAULOGO.png'
 import '../style/AppHeader.css';
 
 const componentTextMap = {
@@ -115,6 +116,12 @@ export default function AppHeader() {
             לחזור
           </button>
         )}
+   
+        {location.pathname.includes('/thesis')  && (
+          <img className="Logo-tau" src={TAULOGO} alt="Logo" />
+
+        )}
+
       </div>
     </header>
   );
