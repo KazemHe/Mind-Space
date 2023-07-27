@@ -27,18 +27,18 @@ export default function ThesisPage() {
   };
 
   // Whenever the pageNumber changes, update the URL
-  useEffect(() => {
-    // Update the URL with the new page number
-    window.history.replaceState(null, null, `/thesis/page/${currentPageNumber}`);
-  }, [currentPageNumber]);
+  // useEffect(() => {
+  //   // Update the URL with the new page number
+  //   window.history.replaceState(null,null,`/thesis/page/${currentPageNumber}`);
+  // }, [currentPageNumber]);
 
   return (
     <div className='ThesisPage' style={divStyle}>
         <div className='thesis-nav'>
 
-      {currentPageNumber < 68 && <i class="fa-solid fa-chevron-left" onClick={handleNextPage}></i>}
+      {currentPageNumber < 68 && <Link to={`/thesis/page/${currentPageNumber + 1}`}><i className="fa-solid fa-chevron-left" onClick={handleNextPage}></i></Link>}
      {currentPageNumber > 0 && <span> {currentPageNumber}</span>} 
-      <i class="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i>
+     <Link to={`/thesis/page/${currentPageNumber - 1}`}><i className="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i></Link> 
         </div>
     </div>
   );
