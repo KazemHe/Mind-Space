@@ -13,8 +13,8 @@
 }
 
 .Logo-footer {
-  width: 60px;
-  height: 60px;
+  width: 11%;
+  height: 7.5vh;
   margin-right: 10px;
 }
 
@@ -35,8 +35,8 @@
 
 .Mindspace-footer {
 
-  width: 29.625rem;
-  height: 2.563rem;
+  width: 81%;
+  height: 5.1vh;
   margin-right: 0.625rem;
 }
 
@@ -48,6 +48,6 @@
 
 
 .Logo-tau{
-  width: 3.7rem;
+  width: 4rem;
   opacity: 0.5;
 }
