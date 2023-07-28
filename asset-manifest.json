@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mind-Space/static/css/main.07e06fc2.css",
-    "main.js": "/Mind-Space/static/js/main.3dd39802.js",
+    "main.css": "/Mind-Space/static/css/main.d27f81dd.css",
+    "main.js": "/Mind-Space/static/js/main.d2a6aebe.js",
     "static/js/787.7d208e01.chunk.js": "/Mind-Space/static/js/787.7d208e01.chunk.js",
     "static/media/Rebirthing_Building.png": "/Mind-Space/static/media/Rebirthing_Building.7a94b119b657984b397c.png",
     "static/media/Senses_main-programa.jpg": "/Mind-Space/static/media/Senses_main-programa.6860668b299f289bd29e.jpg",
@@ -29,12 +29,12 @@
     "static/media/TAULOGO.png": "/Mind-Space/static/media/TAULOGO.0c17b0e2b64b6aa6077c.png",
     "static/media/Mindspace.png": "/Mind-Space/static/media/Mindspace.c1e07f124ef1c078f42c.png",
     "index.html": "/Mind-Space/index.html",
-    "main.07e06fc2.css.map": "/Mind-Space/static/css/main.07e06fc2.css.map",
-    "main.3dd39802.js.map": "/Mind-Space/static/js/main.3dd39802.js.map",
+    "main.d27f81dd.css.map": "/Mind-Space/static/css/main.d27f81dd.css.map",
+    "main.d2a6aebe.js.map": "/Mind-Space/static/js/main.d2a6aebe.js.map",
     "787.7d208e01.chunk.js.map": "/Mind-Space/static/js/787.7d208e01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07e06fc2.css",
-    "static/js/main.3dd39802.js"
+    "static/css/main.d27f81dd.css",
+    "static/js/main.d2a6aebe.js"
   ]
 }
