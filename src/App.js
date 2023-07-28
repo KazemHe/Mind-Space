@@ -22,7 +22,7 @@ function Header() {
 
 function FooterRoute() {
   const location = useLocation();
-  const showFooter = !(location.pathname.includes('/Building') || location.pathname.includes('/model')); // Fixed condition
+  const showFooter = !(location.pathname.includes('/Building') || location.pathname.includes('/model') ||location.pathname.includes('/thesis/page')) ; // Fixed condition
 
   return showFooter ? <Footer /> : null;
 }
