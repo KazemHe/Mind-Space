@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: flex-end;
     padding: 0 2em 0em 2em;
-    font-size :x-large;
+    font-size :xx-large;
 }
 
 .fa-solid{
@@ -19,5 +19,5 @@
 
 .thesis-img{
     width: 84%;
-    max-height: 76vh;
+    max-height: 75vh;
 }
