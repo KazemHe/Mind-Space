@@ -1,5 +1,5 @@
 .thesis-nav{
-    min-height: 71vh;
+    /* min-height: 71vh; */
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -15,4 +15,9 @@
 
 .tesis-pages-link{
     text-decoration: none;
+}
+
+.thesis-img{
+    width: 90%;
+    max-height: 81vh;
 }

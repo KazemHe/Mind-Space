@@ -9,13 +9,13 @@ export default function ThesisPage() {
   const url = getThesisPage(currentPageNumber);
 
   const divStyle = {
-    marginTop : '1%',
-    backgroundImage: `url(${url})`,
-    backgroundSize: '78%',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'bottom center',
-    width: '100%',
-    minHeight: '80vh',
+    // marginTop : '1%',
+    // backgroundImage: `url(${url})`,
+    // backgroundSize: '78%',
+    // backgroundRepeat: 'no-repeat',
+    // backgroundPosition: 'bottom center',
+    // width: '100%',
+    // minHeight: '78vh',
   };
 
   const handlePreviousPage = () => {
@@ -34,8 +34,8 @@ export default function ThesisPage() {
 
   return (
     <div className='ThesisPage' style={divStyle}>
+<img src={url} className='thesis-img' />
         <div className='thesis-nav'>
-
       {currentPageNumber < 67 && <Link className='tesis-pages-link' to={`/thesis/page/${currentPageNumber + 1}`}><i className="fa-solid fa-chevron-left" onClick={handleNextPage}></i></Link>}
      {currentPageNumber > 0 && <span> {currentPageNumber}</span>} 
      <Link className='tesis-pages-link' to={`/thesis/page/${currentPageNumber - 1}`}><i className="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i></Link> 
