@@ -128,7 +128,7 @@ export default function ThesisContent() {
         <Link to='/thesis/page/0' className='custom-link'>
           הבא
         </Link>
-        <Link className='custom-link'>
+        <Link to='/thesis' className='custom-link'>
           חזרה
         </Link>
       </div>

@@ -113,7 +113,7 @@ export default function AppHeader() {
         {componentText && <span className="componentText">{componentText}</span>}
         {!location.pathname.includes('/welcome') && !location.pathname.includes('/thesis') && (
           <button className="button-footer" onClick={handleGoBack}>
-            לחזור
+            חזרה
           </button>
         )}
         <Link to="/thesis" className="logoLink">
