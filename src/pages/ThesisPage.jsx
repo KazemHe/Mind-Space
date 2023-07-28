@@ -38,7 +38,7 @@ export default function ThesisPage() {
         <div className='thesis-nav'>
       {currentPageNumber < 67 && <Link className='tesis-pages-link' to={`/thesis/page/${currentPageNumber + 1}`}><i className="fa-solid fa-chevron-left" onClick={handleNextPage}></i></Link>}
      {currentPageNumber > 0 && <span> {currentPageNumber}</span>} 
-     <Link className='tesis-pages-link' to={`/thesis/page/${currentPageNumber - 1}`}><i className="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i></Link> 
+    {currentPageNumber > 0 && <Link className='tesis-pages-link' to={`/thesis/page/${currentPageNumber - 1}`}><i className="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i></Link> } 
         </div>
     </div>
   );

@@ -37,4 +37,23 @@
   }
   
 
-  
+  .main-title{
+    font-size: 3em;
+    font-weight: 500;
+  }
+
+  .first-title{
+    margin-top: 6rem;
+    font-size: larger;
+    font-weight: 400;
+  }
+
+
+  .sec-title{
+    font-size: medium;
+  }
+
+  .link-button{
+    text-decoration: none;
+    color: black;
+  }

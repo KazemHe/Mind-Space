@@ -23,11 +23,12 @@
 }
 
 .button {
+  text-align: center;
   font-size: 2.7rem;
   font-weight: 380;
   background: linear-gradient(to right, hsl(176, 73%, 68%), hsl(336, 82%, 76%));
   color: black;
-  width: 290px;
+  width: 268px;
   border-radius: 30px;
   border: 3px solid black;
   cursor: pointer;
