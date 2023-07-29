@@ -13,7 +13,7 @@ import ThesisContent from './pages/ThesisContent';
 
 function Header() {
   const location = useLocation();
-  const showHeader = location.pathname !== '/';
+  const showHeader = location.pathname !== '/' && location.pathname !== '/Mind-Space' ;
 
   return showHeader ? <AppHeader /> : null;
 }
@@ -40,6 +40,7 @@ function App() {
           <Route path="/welcome" element={<Welcomepage />} />
           <Route path="/Building/:source" element={<Building />} />
           <Route path="/" element={<Homepage />} />
+          <Route path="/Mind-Space" element={<Homepage />} />
           <Route path="/thesis" element={<Thesis />} />
           <Route path='/thesis/page/:pageNumber' element={<ThesisPage />} />
           <Route path="/thesis/content" element={<ThesisContent />} />

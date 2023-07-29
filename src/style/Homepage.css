@@ -68,7 +68,7 @@
 .thesis-button {
   margin: 0 2px;
   padding: 3px 4px;
-  font-size: 2rem;
+  font-size: 3rem;
   background-color: #ffffff00;
   border: none;
   border-radius: 5px;
@@ -98,4 +98,9 @@
     margin: 2px;
     padding: 2px 4px;
   }
+}
+
+.mini-title{
+  font-size: 1.5rem;
+  font-weight: 400;
 }

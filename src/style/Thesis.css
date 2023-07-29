@@ -50,10 +50,14 @@
 
 
   .sec-title{
-    font-size: medium;
+    font-size: xx-large;
   }
 
   .link-button{
     text-decoration: none;
     color: black;
+  }
+
+  .sec-title-tashap{
+    font-size: x-large;
   }

@@ -34,7 +34,7 @@ export default function Model() {
     case 'Sensations':
       title = 'פרוגרמת האי לחושים';
       className = 'Sens';
-      videoToShow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690140216/mind-space/Senses_03_small_ho8tal.mp4'
+      videoToShow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690635254/mind-space/Senses_video_final_brwqdj.mp4'
       button1 = 'SensePool';
       bgi1 = SensePool
       button2 = 'SenseTherapy';
@@ -47,7 +47,7 @@ export default function Model() {
     case 'Rebirthing':
       title = 'פרוגרמת האי לנשימה';
       className = 'Rebirth';
-      videoToShow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690198715/mind-space/Rebirthing_02_small_kq2sov.mp4'
+      videoToShow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690635252/mind-space/Rebirthing_video_final_orqjus.mp4'
       button1 = 'Amphi';
       bgi1 = Ampi
       button2 = 'Rebirthing-Room';
@@ -60,7 +60,7 @@ export default function Model() {
     case 'Mindfulness':
       title = 'פרוגרמת האי לקְשִׁיבוּת';
       className = 'Mindful';
-      videoToShow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690140200/mind-space/Mindfulness_01_small_size_upmsgf.mp4'
+      videoToShow = 'https://res.cloudinary.com/de3pvycqi/video/upload/v1690635252/mind-space/Mindfulness_video_final_ubb6th.mp4'
       button1 = 'POOl';
       bgi1 = Pool
       button2 = 'MindfulnessRoom';

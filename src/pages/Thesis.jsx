@@ -14,16 +14,22 @@ export default function Thesis() {
       </div>
       <div className='Thesis-content'>
         <p className='sec-title'>מרצים: ד"ר יואב שיבר, ד"ר דקלה יזהר וד"ר רועי קוזלובסקי</p>
-        תשפ"ג 2022-2023
+        <p className='sec-title-tashap'>
+          תשפ"ג 2022-2023
+        </p>
       </div>
       <div className='Thesis-buttons'>
         <button className='Thesis-button'>
           <Link to='/thesis/content' className='link-button' >
-          הבא
-        </Link></button>
+            הבא
+          </Link>
+        </button>
 
-        <button className='Thesis-button' onClick={() => window.history.back()}>
-          חזרה
+        <button className='Thesis-button'>
+
+          <Link to='/' className='link-button' >
+            חזרה
+          </Link>
         </button>
       </div>
     </div>

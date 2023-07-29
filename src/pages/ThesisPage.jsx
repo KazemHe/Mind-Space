@@ -26,12 +26,6 @@ export default function ThesisPage() {
     setCurrentPageNumber((prevPageNumber) => prevPageNumber + 1);
   };
 
-  // Whenever the pageNumber changes, update the URL
-  // useEffect(() => {
-  //   // Update the URL with the new page number
-  //   window.history.replaceState(null,null,`/thesis/page/${currentPageNumber}`);
-  // }, [currentPageNumber]);
-
   return (
     <div className='ThesisPage' style={divStyle}>
 <img src={url} className='thesis-img' />
@@ -39,6 +33,7 @@ export default function ThesisPage() {
       {currentPageNumber < 67 && <Link className='tesis-pages-link' to={`/thesis/page/${currentPageNumber + 1}`}><i className="fa-solid fa-chevron-left" onClick={handleNextPage}></i></Link>}
      {currentPageNumber > 0 && <span> {currentPageNumber}</span>} 
     {currentPageNumber > 0 && <Link className='tesis-pages-link' to={`/thesis/page/${currentPageNumber - 1}`}><i className="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i></Link> } 
+    {currentPageNumber < 1 && <Link className='tesis-pages-link' to='/thesis/content'><i className="fa-solid fa-chevron-right" onClick={handlePreviousPage}></i></Link> } 
         </div>
     </div>
   );

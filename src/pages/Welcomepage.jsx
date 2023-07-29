@@ -21,7 +21,7 @@ const Welcomepage = () => {
 
 
   return (
-    <div className="welcome">
+    <div className="welcome" dir='rtl'>
       <div
         className={`column ${activeColumn === 1 ? 'active' : ''}`}
         onClick={() => handleColumnClick(1)}

@@ -11,18 +11,18 @@ const Homepage = () => {
       <div className="container">
         <img src={logo} alt="Logo" className="logo" />
         <img src={Mindspace} alt="Logo" className="Mindspace" />
-        <h3>פלטפורמת בריאות הוליסטית וירטואלית לחוויית ריפוי וטרנספורמציה</h3>
+        <h3 className='mini-title'>פלטפורמת בריאות הוליסטית וירטואלית לחוויית ריפוי וטרנספורמציה</h3>
         <Link to="/welcome">
           <button className="button">Start</button>
         </Link>
-        <div className="language-options">
+        {/* <div className="language-options">
           <button className="language-option">عربي</button>
           <button className="language-option">עברית</button>
           <button className="language-option">English</button>
-        </div>
+        </div> */}
         <img src={TAULOGO} alt="Logo" className="TAULOGO" />
         <Link to="/thesis">
-          <button className="thesis-button">לתזה</button>
+          <button className="thesis-button">לתיזה</button>
         </Link>
       </div>
     </>
