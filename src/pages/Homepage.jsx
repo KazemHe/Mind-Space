@@ -15,11 +15,7 @@ const Homepage = () => {
         <Link to="/welcome">
           <button className="button">Start</button>
         </Link>
-        {/* <div className="language-options">
-          <button className="language-option">عربي</button>
-          <button className="language-option">עברית</button>
-          <button className="language-option">English</button>
-        </div> */}
+
         <img src={TAULOGO} alt="Logo" className="TAULOGO" />
         <Link to="/thesis">
           <button className="thesis-button">לתיזה</button>

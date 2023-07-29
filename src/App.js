@@ -13,11 +13,10 @@ import ThesisContent from './pages/ThesisContent';
 
 function Header() {
   const location = useLocation();
-  const showHeader = location.pathname !== '/' && location.pathname !== '/Mind-Space' ;
+  const showHeader = location.pathname !== '/Mind-Space' && location.pathname !== '/';
 
   return showHeader ? <AppHeader /> : null;
 }
-
 
 
 function FooterRoute() {

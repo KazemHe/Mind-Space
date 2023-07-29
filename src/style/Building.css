@@ -25,6 +25,14 @@
     background-position: center center;
     min-height: 83.7vh;
   }
+
+  @media (min-width: 990px) {
+    .Mindfulness,
+    .Rebirthing,
+    .Sensations {
+      min-height: 91.6vh; /* Change the min-height to auto for larger screens */
+    }
+  }
   
   .arrowButton {
     position: absolute;

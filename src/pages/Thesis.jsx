@@ -19,18 +19,18 @@ export default function Thesis() {
         </p>
       </div>
       <div className='Thesis-buttons'>
-        <button className='Thesis-button'>
-          <Link to='/thesis/content' className='link-button' >
+        <Link to='/thesis/content' className='link-button' >
+          <button className='Thesis-button'>
             הבא
-          </Link>
-        </button>
+          </button>
+        </Link>
 
-        <button className='Thesis-button'>
 
-          <Link to='/' className='link-button' >
+        <Link to='/' className='link-button' >
+          <button className='Thesis-button'>
             חזרה
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </div>
   );

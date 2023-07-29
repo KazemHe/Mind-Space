@@ -67,6 +67,14 @@
 }
 
 
+@media (min-width: 990px) {
+  .Mindful,
+  .Rebirth,
+  .Sens {
+    min-height: 91.6vh; /* Change the min-height to auto for larger screens */
+  }
+}
+
 .Amphi {
   position: absolute;
   top: 31%;
