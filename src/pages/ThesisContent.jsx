@@ -3,27 +3,27 @@ import { Link } from 'react-router-dom';
 import '../style/ThesisContent.css';
 
 export default function ThesisContent() {
-  const MAX_TEXT_LENGTH = 90; 
+  const MAX_TEXT_LENGTH = 90;
 
   const addDotsToText = (text) => {
-    const spacesCount = (text.match(/\s/g) || []).length; 
+    const spacesCount = (text.match(/\s/g) || []).length;
     const totalLengthWithSpaces = text.length + spacesCount;
-    
+
     if (totalLengthWithSpaces < MAX_TEXT_LENGTH) {
       const dots = '.'.repeat(MAX_TEXT_LENGTH - totalLengthWithSpaces);
       return `${text}${dots}`;
     }
-    
+
     return text;
   };
-  
+
 
   return (
     <>
       <div className='table-of-contents' dir='rtl'>
         <div className='thesis-content'>
           <Link to='/thesis/page/1' className='custom-link'>
-            <h4>{addDotsToText('אבסטרקט')}............01</h4>
+            <p><span style={{ display: 'inline', fontWeight: 'bold' }}>אבסטרקט</span>{addDotsToText('......................................................................................................................01')}</p>
           </Link>
           <Link to='/thesis/page/2' className='custom-link'>
             <h4>פרק 1 : מבוא ורקע</h4>
@@ -76,8 +76,8 @@ export default function ThesisContent() {
           <Link to='/thesis/page/28' className='custom-link'>
             <p>{addDotsToText('3.5 לעמוד על כתפי נפילים: השראות אדריכליות')}.............. 28</p>
           </Link>
-          </div>
-          <div className='thesis-content'>
+        </div>
+        <div className='thesis-content'>
           <Link to='/thesis/page/36' className='custom-link'>
             <h4>פרק 4: מתודולוגיית עיצוב</h4>
           </Link>
@@ -112,23 +112,24 @@ export default function ThesisContent() {
             <p>{addDotsToText('5.4 מסקנות')}...............................51</p>
           </Link>
           <Link to='/thesis/page/52' className='custom-link'>
-            <h4>{addDotsToText('סיכום ואחרית דבר')}........52</h4>
+            <p><span style={{ display: 'inline', fontWeight: 'bold' }}>סיכום ואחרית דבר</span>{addDotsToText('....................................................................................................52')}</p>
           </Link>
           <Link to='/thesis/page/54' className='custom-link'>
-            <h4>{addDotsToText('רשימת תמונות')}.......54</h4>
+            <p><span style={{ display: 'inline', fontWeight: 'bold' }}>רשימת תמונות</span>{addDotsToText('.........................................................................................................54')}</p>
           </Link>
           <Link to='/thesis/page/55' className='custom-link'>
-            <h4>{addDotsToText('תמונות')}...........55</h4>
+            <p><span style={{ display: 'inline', fontWeight: 'bold' }}>תמונות</span>{addDotsToText('......................................................................................................................55')}</p>
           </Link>
           <Link to='/thesis/page/60' className='custom-link'>
-            <h4>{addDotsToText('נספחים')}..........60</h4>
+            <p><span style={{ display: 'inline', fontWeight: 'bold' }}>נספחים</span>{addDotsToText('.....................................................................................................................60')}</p>
           </Link>
           <Link to='/thesis/page/65' className='custom-link'>
-            <h4>{addDotsToText('ביבליוגרפיה')}..........65</h4>
-          </Link>
-          </div>
+            <p> <span style={{ display: 'inline', fontWeight: 'bold' }}>ביבליוגרפיה</span>
+              {addDotsToText('..............................................................................................................65')}
+            </p>  </Link>
         </div>
-     
+      </div>
+
       <div className='navigation-buttons'>
         <Link to='/thesis/page/0' className='custom-link'>
           הבא

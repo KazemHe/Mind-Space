@@ -13,7 +13,7 @@ import ThesisContent from './pages/ThesisContent';
 
 function Header() {
   const location = useLocation();
-  const showHeader =  (location.pathname.includes('/Building') || location.pathname.includes('/welcome') ||location.pathname.includes('/model') || location.pathname.includes('/thesis'));;
+  const showHeader =  (location.pathname.includes('/Building') || location.pathname.includes('/welcome') ||location.pathname.includes('/model') || location.pathname.includes('/thesis'));
 
   return showHeader ? <AppHeader /> : null;
 }
