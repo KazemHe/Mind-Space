@@ -13,19 +13,17 @@ import ThesisContent from './pages/ThesisContent';
 
 function Header() {
   const location = useLocation();
-  const showHeader = location.pathname !== '/Mind-Space' && location.pathname !== '/';
+  const showHeader =  (location.pathname.includes('/Building') || location.pathname.includes('/welcome') ||location.pathname.includes('/model') || location.pathname.includes('/thesis'));;
 
   return showHeader ? <AppHeader /> : null;
 }
 
-
 function FooterRoute() {
   const location = useLocation();
-  const showFooter = !(location.pathname.includes('/Building') || location.pathname.includes('/model') ||location.pathname.includes('/thesis/page')) ; // Fixed condition
+  const showFooter = !(location.pathname.includes('/Building') || location.pathname.includes('/model') || location.pathname.includes('/thesis/page'));
 
   return showFooter ? <Footer /> : null;
 }
-
 
 function App() {
   return (
@@ -39,15 +37,16 @@ function App() {
           <Route path="/welcome" element={<Welcomepage />} />
           <Route path="/Building/:source" element={<Building />} />
           <Route path="/" element={<Homepage />} />
-          <Route path="/Mind-Space" element={<Homepage />} />
           <Route path="/thesis" element={<Thesis />} />
-          <Route path='/thesis/page/:pageNumber' element={<ThesisPage />} />
+          <Route path="/thesis/page/:pageNumber" element={<ThesisPage />} />
           <Route path="/thesis/content" element={<ThesisContent />} />
-
           <Route path="/model/:source" element={<Model />} />
+
+          {/* Redirect to root path for undefined routes */}
+          <Route path="*" element={<Homepage />} />
         </Routes>
 
-     <FooterRoute />
+        <FooterRoute />
       </div>
     </Router>
   );
