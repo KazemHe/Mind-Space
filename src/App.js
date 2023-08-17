@@ -11,7 +11,7 @@ import Model from './pages/Model';
 import ThesisPage from './pages/ThesisPage';
 import ThesisContent from './pages/ThesisContent';
 import { Helmet } from 'react-helmet';
-import logoFavicon from '../src/images/logo.png'
+import logoFavicon from './images/logo.png'
 
 
 function Header() {
@@ -34,7 +34,7 @@ function App() {
     <Router>
       <div className="App">
         <Helmet>
-          <link rel="icon" type="image/x-icon" href={logoFavicon} />
+          <link rel="icon" type="image/png" href={logoFavicon} />
         </Helmet>
         <header>
           <Header />
