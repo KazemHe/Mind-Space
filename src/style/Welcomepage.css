@@ -1,6 +1,7 @@
 .welcome {
   display: flex;
   /* height: 100vh; */
+  margin: 5%;
 }
 
 .column {

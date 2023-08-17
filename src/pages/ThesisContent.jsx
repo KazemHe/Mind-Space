@@ -100,7 +100,7 @@ export default function ThesisContent() {
             <h4>פרק 5: מסקנות וכיוונים עתידיים</h4>
           </Link>
           <Link to='/thesis/page/48' className='custom-link'>
-            <p>{addDotsToText('5.1 הממצאים העיקריים וניתוחם')}..................48</p>
+            <p>{addDotsToText('5.1 הממצאים העיקריים וניתוחם')}.................48</p>
           </Link>
           <Link to='/thesis/page/49' className='custom-link'>
             <p>{addDotsToText('5.2 השלכות על עיצוב ופרקטיקה')}..................49</p>
@@ -125,7 +125,7 @@ export default function ThesisContent() {
           </Link>
           <Link to='/thesis/page/65' className='custom-link'>
             <p> <span style={{ display: 'inline', fontWeight: 'bold' }}>ביבליוגרפיה</span>
-              {addDotsToText('..............................................................................................................65')}
+              {addDotsToText('...............................................................................................................65')}
             </p>  </Link>
         </div>
       </div>
