@@ -10,10 +10,13 @@ import Thesis from './pages/Thesis';
 import Model from './pages/Model';
 import ThesisPage from './pages/ThesisPage';
 import ThesisContent from './pages/ThesisContent';
+import { Helmet } from 'react-helmet';
+import logoFavicon from '../src/images/logo.png'
+
 
 function Header() {
   const location = useLocation();
-  const showHeader =  (location.pathname.includes('/Building') || location.pathname.includes('/welcome') ||location.pathname.includes('/model') || location.pathname.includes('/thesis'));
+  const showHeader = (location.pathname.includes('/Building') || location.pathname.includes('/welcome') || location.pathname.includes('/model') || location.pathname.includes('/thesis'));
 
   return showHeader ? <AppHeader /> : null;
 }
@@ -26,13 +29,16 @@ function FooterRoute() {
 }
 
 function App() {
+
   return (
     <Router>
       <div className="App">
+        <Helmet>
+          <link rel="icon" type="image/x-icon" href={logoFavicon} />
+        </Helmet>
         <header>
           <Header />
         </header>
-
         <Routes>
           <Route path="/welcome" element={<Welcomepage />} />
           <Route path="/Building/:source" element={<Building />} />
